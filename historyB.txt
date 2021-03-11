@@ -1,0 +1,46 @@
+    1  git init
+    2  dir
+    3  git status
+    4  vim test.txt
+    5  cat test.txt
+    6  git status
+    7  git add test.txt
+    8  git commit -m "mensaje"
+    9  git status
+   10  git remote -v
+   11  git remote origin https://github.com/nosoynicoo/sw2.git
+   12  git remote -origin https://github.com/nosoynicoo/sw2.git
+   13  git remote add origin https://github.com/nosoynicoo/sw2.git
+   14  git push origin master
+   15  git clone https://github.com/IkerMartinez/P2SW2.git P2SW2
+   16  git status
+   17  dir
+   18  cd P2SW2
+   19  dir
+   20  vim prueba.txt
+   21  cat prueba.txt
+   22  git status
+   23  git add prueba.txt
+   24  commit -m "Hallo from B"
+   25  git commit -m "Hallo from B"
+   26  git push origin master
+   27  git push origin master
+   28  git status
+   29  doskey /HISTORY
+   30  vim prueba.txt
+   31  vim add prueba.txt
+   32  dir
+   33  git add prueba.txt
+   34  git commit -m "3 linea"
+   35  git push origin master
+   36  git pull origin master
+   37  git push origin master
+   38  vim prueba.txt
+   39  git add prueba.txt
+   40  git commit -m "Punto 13"
+   41  git push origin master
+   42  doskey /HISTORY
+   43  git status
+   44  history
+   45  git pull origin master
+   46  history > historyB.txt
